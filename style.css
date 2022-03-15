@@ -135,7 +135,7 @@ h1 {
 .badge { /*classe base per tutti i bottoni*/
     font-weight: 700;
     font-size: 0.65em;
-    padding: 7px 10px;
+    padding: 6px 10px;
     border-radius: 9px;
     width: fit-content;
     display: inline-block;
@@ -145,4 +145,24 @@ h1 {
 
 .editorial {
     background-color: #14aaf5;
+}
+
+.Q1 {
+    background-color: #ab5de6;
+}
+
+.recruiting {
+    background-color: #2cc6ab;
+}
+
+.mobile {
+    background-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
 }
