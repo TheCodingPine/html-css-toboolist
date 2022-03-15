@@ -6,7 +6,8 @@ body {
 }
 
 header {
-    background-color: white; /**/
+    background-color: white;
+    /*l'immagine del logo ha un bordo bianco eccessivo*/
     height: 72px; /*compromesso con l'immagine, non mi pare centrato*/
     width: 100%;
     margin-bottom: 30px;
