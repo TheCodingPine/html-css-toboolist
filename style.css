@@ -5,6 +5,8 @@ body {
     margin: 0px; /*body have a default margin, i had to remove it*/
 }
 
+footer {display: none;}
+
 /*---------------header-----------------*/
 
 header {
@@ -75,9 +77,13 @@ ul {
 }
 
 h1 {
-    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
     font-weight: 900;
+    margin-bottom: 5px;
 }
+
+
 
 .arrow {
     /*l'ascii della freccia non è adatto.
@@ -91,6 +97,15 @@ h1 {
     /*aggiunto l'inline-block e una posizione più centrale*/
     display: inline-block;
     margin-bottom: 2px;
+    margin-right: 5px;
   }
 
   
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
