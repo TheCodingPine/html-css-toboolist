@@ -5,6 +5,8 @@ body {
     margin: 0px; /*body have a default margin, i had to remove it*/
 }
 
+/*---------------header-----------------*/
+
 header {
     background-color: white;
     /*l'immagine del logo ha un bordo bianco eccessivo*/
@@ -13,7 +15,6 @@ header {
     margin-bottom: 30px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 #logo {
@@ -30,6 +31,7 @@ header {
     font-weight: 900;
 }
 
+/*---------------contaner-----------------*/
 
 .container { /*class perchè lo applicherò a due parti*/
     max-width: 70%;
@@ -38,7 +40,30 @@ header {
     padding: 0px;
     background-color: white;
     /*-----border-style: solid;-----*/
-    border-radius: 5px; /*bordi arrotondati*/
+    border-radius: 3px; /*bordi arrotondati*/
+    padding: 8px 35px;
+    font-size: 0.9em
 }
 
+.button {
+    font-weight: 900;
+    font-size: 0.85em;
+    padding: 7px 15px;
+    border-radius: 5px;
+    width: fit-content;
+    display: inline-block;
+    margin-right: 4px;
+}
 
+.active {
+    background-color: #14aaf5;
+    color: white;
+}
+
+.inactive {
+    background-color: white;
+    color: lightgray;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
