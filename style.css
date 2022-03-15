@@ -11,8 +11,7 @@ footer {display: none;}
 
 header {
     background-color: white;
-    /*l'immagine del logo ha un bordo bianco eccessivo*/
-    height: 72px; /*compromesso con l'immagine, non mi pare centrato*/
+    height: 75px; /*compromesso con l'immagine, non mi pare centrato*/
     width: 100%;
     margin-bottom: 30px;
     padding: 0px;
@@ -20,15 +19,16 @@ header {
 }
 
 #logo {
-    height: 60px;
+    height: 50px;
     display: inline-block;
     vertical-align: middle;
+    padding-left: 15px;
 }
 
 #nome_sito {
     line-height: 70px;
     height: 70px;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -116,4 +116,5 @@ h1 {
     border-width: 1px;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 4px;
 }
