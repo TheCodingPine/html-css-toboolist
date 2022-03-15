@@ -77,10 +77,10 @@ ul {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.3em;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .arrow {
@@ -100,10 +100,10 @@ h1 {
 
   
   h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.9em;
-  font-weight: 550;
-  margin-bottom: 8px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 01em;
+  font-weight: 500;
+  margin-bottom: 7px;
   display: inline-block;
 }
 
