@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
     background-color: #f6f8f9;
     margin: 0px; /*body have a default margin, i had to remove it*/
@@ -5,12 +7,28 @@ body {
 
 header {
     background-color: white; /**/
-    height: 70px;
+    height: 72px; /*compromesso con l'immagine, non mi pare centrato*/
     width: 100%;
     margin-bottom: 30px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
+
+#logo {
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: ;
+}
+
+#nome_sito {
+    line-height: 70px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
 
 .container { /*class perchè lo applicherò a due parti*/
     max-width: 70%;
