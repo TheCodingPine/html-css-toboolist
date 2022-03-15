@@ -44,26 +44,53 @@ header {
     padding: 8px 35px;
     font-size: 0.9em
 }
-
-.button {
+/*---------------bottoni-----------------*/
+.button { /*classe base per tutti i bottoni*/
     font-weight: 900;
     font-size: 0.85em;
-    padding: 7px 15px;
+    padding: 5px 15px;
     border-radius: 5px;
     width: fit-content;
     display: inline-block;
     margin-right: 4px;
 }
 
-.active {
+.active { /*bottoni blu*/
     background-color: #14aaf5;
     color: white;
 }
 
-.inactive {
+.inactive { /*bottoni grigi*/
     background-color: white;
     color: lightgray;
     border-color: lightgray;
     border-style: solid;
     border-width: 1px;
 }
+
+/*---------------Sezioni-----------------*/
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.arrow {
+    /*l'ascii della freccia non è adatto.
+    ho trovato online un codice per creare un triangolo di margin:
+    i bordi dx e sx tracciano il contorno, tagliando quello top*/
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(0, 0, 0);
+    /*aggiunto l'inline-block e una posizione più centrale*/
+    display: inline-block;
+    margin-bottom: 2px;
+  }
+
+  
