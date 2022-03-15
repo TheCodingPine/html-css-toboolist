@@ -129,3 +129,20 @@ h1 {
     border-color: red;
     color: red;
 }
+
+/*------------badge----------*/
+
+.badge { /*classe base per tutti i bottoni*/
+    font-weight: 700;
+    font-size: 0.65em;
+    padding: 7px 10px;
+    border-radius: 9px;
+    width: fit-content;
+    display: inline-block;
+    margin-right: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.editorial {
+    background-color: #14aaf5;
+}
