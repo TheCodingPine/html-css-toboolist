@@ -73,6 +73,7 @@ header {
 
 ul {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 h1 {
@@ -81,8 +82,6 @@ h1 {
     font-weight: 900;
     margin-bottom: 5px;
 }
-
-
 
 .arrow {
     /*l'ascii della freccia non è adatto.
@@ -102,19 +101,27 @@ h1 {
   
   h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1em;
-  font-weight: 600;
+  font-size: 0.9em;
+  font-weight: 550;
   margin-bottom: 8px;
   display: inline-block;
 }
 
-.true {
-    height: 18px;
-    width: 18px;
-    border-color: red;
+.check {
+    height: 17px;
+    width: 17px;
+    border-color: lightgreen;
     border-style: solid;
     border-width: 1px;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 4px;
+    margin-right: 8px;
+    color: lightgreen;
+    line-height: 17px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.right {
+    
 }
