@@ -1,25 +1,25 @@
 body {
     background-color: #f6f8f9;
-
-    margin: 0px;
+    margin: 0px; /*body have a default margin, i had to remove it*/
 }
 
 header {
     background-color: white; /**/
     height: 70px;
     width: 100%;
-    margin: 0px;
+    margin-bottom: 30px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.container {
+.container { /*class perchè lo applicherò a due parti*/
     max-width: 70%;
     margin: auto;
+    margin-top: 2px; /*margine minimo per divisore*/
     padding: 0px;
     background-color: white;
-    border-style: solid;
-
+    /*-----border-style: solid;-----*/
+    border-radius: 5px; /*bordi arrotondati*/
 }
 
 
